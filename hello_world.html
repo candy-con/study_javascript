@@ -1,0 +1,30 @@
+<!-- ページの構成は以下のようになっています。
+1. document.write("Hello world!") でページに"Hello World!"と表示する。"
+2. alert()を使用し、ポップアップウィンドウで”Hello World！”を表示する。
+3. innerHTMLを用いて、指定したdivタグにメッセージを表示する。
+4. console.log()を用いて、"Hello World!" を表示する。
+Windows の場合は「F12」キー、Macの場合は「Command」+ 「Option」+　「I」キーを押していただくと、
+コンソール上でメッセージが表示されます。
+※console.log()は大抵デバッグ用として使われます。-->
+
+<!-- Web ページの立ち上げ方
+Live Server という拡張機能がすでにインストールしてあるので、
+右下のGo Live というタブをクリックしていただくと、サイトがサーバ経由で立ち上がります。
+そのあと、ブラウザで開くというメッセージが表示されるはずなので、
+それをクリックしていただければウェブサイトが立ち上がります。-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>サンプル</title>
+</head>
+<body>
+<div id = "greetings"></div> <!--innerHTML経由のメッセージはここに表示されます。-->
+<script>
+document.write("Hello world!!"); //documentオブジェクトを通して、htmlドキュメントに書き込みます。
+//alert("Hello world!!");   //ポップアップウィンドウにて、”Hello World!" を表示します。
+//document.getElementById("greetings").innerHTML = "Hello world!!";   //innerHTMLを用いて、指定したdivタグにメッセージを表示します。
+//console.log("Hello world!!"); //デバッグの用途で用いられます。
+</script>
+</body>
+</html>
