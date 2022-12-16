@@ -1,4 +1,4 @@
 # study_javascript
 
-JavaScript 勉強用のレポジトリーです。<br>
-気軽に見て行ってください。
+GDSC_Chuo JavaScript 勉強用のレポジトリーです。<br>
+本レポジトリーは Github Codespaces を通してファイルを作成しています。
