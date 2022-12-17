@@ -32,4 +32,8 @@ https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/What_is_JavaS
 
 警告やメッセージをポップアップで出してくれます。<br>
 実際にhello_world.htmlのscriptタグ内で実装してみましょう。<bn>
+<br>
+alert("メッセージ"); <br>
+<br>
+と記述してやれば、htmlを立ち上げたときにポップアップが表示されるはずです。<br>
 
