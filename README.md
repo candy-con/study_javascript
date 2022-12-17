@@ -28,5 +28,8 @@ https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/What_is_JavaS
 
 コメントを書く癖をつけると、のちのちソースコードを見返すときに可読率が違ってきます。<br>
 
+4. アラートの表示<br>
 
+警告やメッセージをポップアップで出してくれます。<br>
+実際にhello_world.htmlのscriptタグ内で実装してみましょう。<bn>
 
