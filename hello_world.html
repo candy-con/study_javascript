@@ -18,13 +18,17 @@ Live Server という拡張機能がすでにインストールしてあるの�
 <head>
 <title>サンプル</title>
 </head>
-<body>
+<body> 
+<p>iThieLが挨拶するよ!</p>
+<button onclick="voice_reader()">音声が再生されます。</button>
+<p>以下ではHello World!の出力が確認できます。</p>
 <div id = "greetings"></div> <!--innerHTML経由のメッセージはここに表示されます。-->
 <script>
 document.write("Hello world!!"); //documentオブジェクトを通して、htmlドキュメントに書き込みます。
 //alert("Hello world!!");   //ポップアップウィンドウにて、”Hello World!" を表示します。
 //document.getElementById("greetings").innerHTML = "Hello world!!";   //innerHTMLを用いて、指定したdivタグにメッセージを表示します。
-//console.log("Hello world!!"); //デバッグの用途で用いられます。
+//console.log("Hello world!<!"); //デバッグの用途で用いられます。
 </script>
+<script src = "WebSpeechAPI.js"></script>
 </body>
 </html>
