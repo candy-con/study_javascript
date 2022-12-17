@@ -19,7 +19,7 @@ https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/What_is_JavaS
 または、タグにそのまま記述することもあります。<br>
 例えば、button onclick　などがその典型です。<br>
 
-近年はページの読み込み速度を重視する傾向にあるため、</body>タグ付近に<script>タグを用いて記述されることが多いようです。<br>
+近年はページの読み込み速度を重視する傾向にあるため、bodyタグ付近にscriptタグを用いて記述されることが多いようです。<br>
 
 <strong>3. コメント</strong><br>
 
