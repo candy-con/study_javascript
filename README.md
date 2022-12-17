@@ -15,9 +15,9 @@ https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/What_is_JavaS
 
 2. スクリプトの記入場所<br>
 
-大抵は"<header><body>"タグ内で"<script>"タグを用いて組み込まれたりします。<br>
+大抵はheaderやbodyタグ内でscriptタグを用いて組み込まれたりします。<br>
 または、タグにそのまま記述することもあります。<br>
-例えば、"<button onclick>"などがその典型です。<br>
+例えば、button onclick　などがその典型です。<br>
 
 近年はページの読み込み速度を重視する傾向にあるため、</body>タグ付近に<script>タグを用いて記述されることが多いようです。<br>
 
