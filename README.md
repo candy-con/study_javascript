@@ -31,7 +31,7 @@ https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/What_is_JavaS
 4. アラートの表示<br>
 
 警告やメッセージをポップアップで出してくれます。<br>
-実際にhello_world.htmlのscriptタグ内で実装してみましょう。<bn>
+実際にhello_world.htmlのscriptタグ内で実装してみましょう。<br>
 <br>
 alert("メッセージ"); <br>
 <br>
