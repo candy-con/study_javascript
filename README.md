@@ -26,10 +26,7 @@ https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/What_is_JavaS
 "//"　一行のコメント <br>
 "/* － */" 複数行に渡るコメント <br>
 
-HTMLの場合は "<!-- -->" <br>
-CSSの場合は "/* － */" <br>
-
-いずれも一行・複数行において同じコメントアウトを使用します。<br>
+コメントを書く癖をつけると、のちのちソースコードを見返すときに可読率が違ってきます。<br>
 
 
 
