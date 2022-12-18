@@ -1,7 +1,10 @@
 # study_javascript
 
 GDSC_Chuo JavaScript 勉強用のレポジトリーです。<br>
-本レポジトリは実行環境としてGithub Codespaces を採用しています。
+本レポジトリは実行環境としてGithub Codespaces を採用しています。<br>
+<br>
+ブラウザにおけるhtmlの立ち上げ方については<br>
+hello_world.html 内にある「webページの立ち上げ方」を参照ください。<br>
 
 ## 目次
 - 基本事項
