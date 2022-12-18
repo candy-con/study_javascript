@@ -66,7 +66,6 @@ var (変数名) = なんとか;<br>
 <strong>7.変数の更新と定数</strong><br>
 
 変数は「箱」なので、当然中身を入れ替えることができます。<br>
-<br>
 var kokekoko = "niwatori";<br>
 kokekoko = "meow"; <-- 中身は"meow"になる。<br>
 <br>
