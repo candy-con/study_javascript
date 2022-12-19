@@ -26,8 +26,10 @@ https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/What_is_JavaS
 
 <strong>3. コメント</strong><br>
 
-"//"　一行のコメント <br>
-"/* － */" 複数行に渡るコメント <br>
+```
+"//"　一行のコメント 
+"/* － */" 複数行に渡るコメント 
+```
 
 コメントを書く癖をつけると、のちのちソースコードを見返すときに可読率が違ってきます。<br>
 
@@ -35,18 +37,22 @@ https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/What_is_JavaS
 
 警告やメッセージをポップアップで出してくれます。<br>
 実際にhello_world.htmlのscriptタグ内で実装してみましょう。<br>
-<br>
-alert("メッセージ"); <br>
-<br>
+
+```javascript
+alert("メッセージ"); 
+```
+
 と記述してやれば、htmlを立ち上げたときにポップアップが表示されるはずです。<br>
 
 <strong>5. 文字の表示</strong><br>
   
 htmlに直接文字を表示させるには、document.write()を使います。<br>
 今の時点ではそういうおまじないだと思っていただいて構いません。<br>
-<br>
+
+```javascript
 document.write("メッセージ");
-<br>
+```
+
 と書いてあげると、htmlに任意のメッセージが表示されるはずです。<br>
  
 <strong>6. 変数とその制約</strong><br>
@@ -54,9 +60,11 @@ document.write("メッセージ");
 変数を定義して、出力してみましょう。<br>
 「変数」とは値や文字（文字列）を入れる箱のようなものです。<br>
 JavaScriptでは<br>
-<br>
-var (変数名) = なんとか;<br>
-<br>
+
+```javascript
+var (変数名) = なんとか;
+```
+
 という風に変数を宣言します<br>
 なお、変数の命名には制約があり、<br>
 予約語といわれるもの　alert,console,document　などは使用できません。<br>
@@ -69,16 +77,20 @@ var (変数名) = なんとか;<br>
 <strong>7.変数の更新と定数</strong><br>
 <br>
 変数は「箱」なので、当然中身を入れ替えることができます。<br>
-<br>
-var kokekoko = "niwatori";<br>
-kokekoko = "meow"; <-- 中身は"meow"になる。<br>
-<br>
+
+```javascript
+var kokekoko = "niwatori";
+kokekoko = "meow"; <-- 中身は"meow"になる。
+```
+
 しかし、URLや人名など、うっかり変えてしまうとまずいものに対してはどう対応したらよいのでしょうか。<br>
 変数の中身を変更したくない場合、JavaScriptでは「定数」というものを用います。<br>
 var の代わりに定数を意味するconstを頭に付け、定数名を書きます。<br>
-<br>
-const foo = なんとか;  <--- 中身は代入以降変わらない。<br>
-<br>
+
+```javascript
+const foo = なんとか;  <--- 中身は代入以降変わらない。
+```
+
 ※ただし、ブラウザによっては中身が更新されてしまうこともあります。<br>
 <br>
 <strong>8. 関数と引数、変数のスコープ</strong><br>
@@ -89,12 +101,14 @@ Javascriptの一連の命令は、関数という形でまとめて実行する�
 数字や文字列を放り込むと、何かを返してくれます。これを返り値と言います。<br>
 また、中身の処理だけを実行して、<br>
 入力を受け付けない関数も作れたりします（返り値のない関数もつくれちゃう）。<br>
-<br>
-function piyo(niwatori) {<br>
-中身の処理;<br>
-return なんとかかんとか;<br>
-}<br>
-<br>
+
+```javascript
+function piyo(niwatori) {
+中身の処理;
+return なんとかかんとか;
+}
+```
+
 piyo が関数名、niwatoriが引数になります。<br>
 { } 内に中身で行う処理を書いてやります。<br>
 return なんとかかんとか　は返り値を指定する部分です。あってもなくても構いません。<br>
