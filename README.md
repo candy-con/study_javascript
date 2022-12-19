@@ -103,7 +103,8 @@ Javascriptの一連の命令は、関数という形でまとめて実行する�
 入力を受け付けない関数も作れたりします（返り値のない関数もつくれちゃう）。<br>
 
 ```javascript
-function piyo(niwatori) {
+function piyo(niwatori)
+{
 中身の処理;
 return なんとかかんとか;
 }
